@@ -150,7 +150,7 @@
 * En Firefox y Chrome se debe hacer solo 1 h1
 * Seguimos trabajando con el archivo primera_web.html
 ## Vídeo 5
-### Etiquetas figure y figcaption.
+### Etiquetas figure y figcaption,Nuevas y viejas etiquetas
 * figure inserta imagen
 * figcaption comentario de la imagen.
 * Nuevas y viejas etiquetas.
@@ -166,3 +166,4 @@
 | `<cite></cite>`| Títulos de libros, canciones, películas, trabajos propios |
 | `<address></address>`| Para información de contacto. Debe ir dentro del **footer** |
 |`<time></time>`| Representa fecha y hora`<time datetime="2014-09-11">`|
+* Seguimos trabajando con el archivo primera_web.html.
