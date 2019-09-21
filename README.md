@@ -132,3 +132,16 @@
 ## Vídeo 4
 * Estructura del cuerpo.
 * Nuevos Elementos Organizativos.
+* Padres hijos y hermanos.
+```
+<section>
+    <article>
+        <h1></h1>
+        <p></p>
+        <footer></footer>
+    </article>
+</section>
+
+```
+* En Firefox y Chrome se debe hacer solo 1 <h1>
+* Seguimos trabajando con el archivo primera_web.html
