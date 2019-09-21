@@ -97,4 +97,8 @@
 * Categorías.
 * Comentarios.
 
+# Desarrollo del Curso 
+## Vídeo 1 Presentación.
+## Vídeo 2 Conceptos Básicos.
+
 
