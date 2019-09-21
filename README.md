@@ -143,5 +143,5 @@
 </section>
 
 ```
-* En Firefox y Chrome se debe hacer solo 1 <h1>
+* En Firefox y Chrome se debe hacer solo 1 h1
 * Seguimos trabajando con el archivo primera_web.html
