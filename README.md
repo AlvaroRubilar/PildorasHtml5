@@ -150,6 +150,8 @@
 * figure inserta imagen
 * figcaption comentario de la imagen.
 * Nuevas y viejas etiquetas.
+
+
 | Etiqueta | Uso Semántico en HTML5 |
 | --- | --- |
 | `<mark></mark>` | **Marcar un texto**, sin importancia ni énfasis. (De acuerdo a las circunstancias del momento) |
