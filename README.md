@@ -9,5 +9,5 @@
  git config --global user.name "Your Name"
 ```
 * En VSCode presionar Ctrl+Shift+P luego buscar Git:Clone e insertar link de GitHub
-*En la primera vez te pedirá el usuario y contraseña de GitHub*
+*En la primera vez te pedirá el usuario y contraseña de GitHub
 * Ver este [vídeo tutorial](https://www.youtube.com/watch?v=9eaR6MZvAnA) y para profundizar ver este otro [tutorial](https://www.youtube.com/watch?v=hWglK8nWh60).
