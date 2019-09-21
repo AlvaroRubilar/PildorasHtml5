@@ -145,3 +145,6 @@
 ```
 * En Firefox y Chrome se debe hacer solo 1 h1
 * Seguimos trabajando con el archivo primera_web.html
+## Vídeo 5
+* Etiquetas figure y figcaption.
+* Nuevas y viejas etiquetas.
