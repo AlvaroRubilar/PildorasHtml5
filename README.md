@@ -1,5 +1,7 @@
 # PildorasHtml5
 [Curso de Html 5](https://www.youtube.com/watch?v=QC9_8nRNNHA&list=PLU8oAlHdN5BnX63lyAeV0LzLnpGudgRrK) de Píldoras Informáticas
+
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/QC9_8nRNNHA/0.jpg)](http://www.youtube.com/watch?v=QC9_8nRNNHA&list=PLU8oAlHdN5BnX63lyAeV0LzLnpGudgRrK)
 
 # Configurar VSCode para el control de versiones Git/GitHub
