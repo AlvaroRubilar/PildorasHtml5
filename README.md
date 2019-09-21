@@ -125,3 +125,7 @@
 ```
 <footer> </footer>
 ```
+#### Modelo caja contenedor (Tipo tabla)
+```
+<div> </div>
+```
