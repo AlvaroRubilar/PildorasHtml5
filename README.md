@@ -1,5 +1,5 @@
 # PildorasHtml5
-Curso de Html5 de Píldoras Informáticas
+[Curso de Html 5](https://www.youtube.com/watch?v=QC9_8nRNNHA&list=PLU8oAlHdN5BnX63lyAeV0LzLnpGudgRrK) de Píldoras Informáticas
 # Configurar VSCode para el control de versiones Git/GitHub
 
 * Descargar Git desde su [página web](https://git-scm.com/) e instalar
