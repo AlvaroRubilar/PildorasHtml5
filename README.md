@@ -101,5 +101,27 @@
 ## Vídeo 1 Presentación.
 ## Vídeo 2 Conceptos Básicos.
 * Creación archivo primera_web.html
-
-
+## Video 3
+* Etiquetas title, link y estructura del cuerpo
+* Seguimos trabajando con el archivo primera_web.html
+### Organización del body
+#### Cabecera
+```
+<heather> </heather>
+```
+#### Barra de navegación
+```
+<nav> </nav>
+```
+#### Barra Lateral
+```
+<aside> </aside>
+```
+#### Conenido Principal
+```
+<section> </section>
+```
+#### Información Institucional
+```
+<footer> </footer>
+```
