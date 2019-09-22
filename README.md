@@ -167,7 +167,7 @@
 | `<address></address>`| Para información de contacto. Debe ir dentro del **footer** |
 |`<time></time>`| Representa fecha y hora`<time datetime="2014-09-11">`|
 * Seguimos trabajando con el archivo primera_web.html.
-## Video 6
+## Video 6 Trabajando la apariencia
 ### Evolución
 <ol>
  <li>HTML con atributos de etiquetas</li>
@@ -188,4 +188,14 @@
     * Estilo inline. Casos muy concretos.
 ### Selectores comunes en CSS
 
-Hay selectores por etiqueta(body,h1,etc.), por id o por clase.
+* Hay selectores por etiqueta(body,h1,etc.), por id o por clase.
+* seguimos trabajando con primera_web.html y se ha incorporado miHojaDeEstilos.css
+## Video 7 Modelo caja-contenedor. Float, margin y padding
+* `display: inline;` se distribuyen de forma horizontal y desaparecen los puntos
+* `float: left;` hace que el aside(barra lateral) este ubicado en la izquierda flotando.
+* `height:1200px` da el tamaño del bloque.
+* `margin-top:-4px;` aumenta el margen -4 hacia arriba.
+* `padding-top: 5px;` espacio entre el borde y el bloque.
+
+
+[margin padding border width height  ](https://sabe.io/classes/css/css-box-model-padding-border-margin/css-box-model.png "margin padding border width height" )

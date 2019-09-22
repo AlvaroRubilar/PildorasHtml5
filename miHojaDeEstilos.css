@@ -8,10 +8,24 @@
 }
 #barraLateral{
 background-color: cornflowerblue;
+float: left;
+height: 885px;
 }
 #contenidoPrincipal{
+    padding-left: 15px;
+    padding-top: 5px;
 background-color: bisque;
+margin-left: 210px;/* no afecta porque aside flota*/
+margin-top:-1px;
 }
 #piePrincipal{
     background-color: aqua;
+}
+li{
+    background-color: cadetblue;
+    display: inline;
+}
+img{
+    max-width: 300px; 
+    max-height: 300px;
 }
