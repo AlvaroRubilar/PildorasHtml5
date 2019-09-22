@@ -179,10 +179,10 @@
  <li>Estructura=HTML5 Apariencia=CSS3</li>
 </ol>
 
-
-1. First ordered list item
-2. Another item
- * Unordered sub-list. 
-3. Actual numbers don't matter, just that it's a number
- 1. Ordered sub-list
-4. And another item.
+### ¿Dónde colocar el código CSS?
+1. En un archivo independiente
+    * Archivo independiente con extensión CSS.
+2. En la cabecera de documento HTML
+    * Dentro de la etiqueta head.
+3. Dentro de etiqueta
+    * Estilo inline. Casos muy concretos.
