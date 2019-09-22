@@ -194,8 +194,9 @@
 * `display: inline;` se distribuyen de forma horizontal y desaparecen los puntos
 * `float: left;` hace que el aside(barra lateral) este ubicado en la izquierda flotando.
 * `height:1200px` da el tamaño del bloque.
-* `margin-top:-4px;` aumenta el margen -4 hacia arriba.
+* `margin-top:-4px;` disminuye el margen 4 hacia abajo.
 * `padding-top: 5px;` espacio entre el borde y el bloque.
 
 
 ![margin padding border width height  ](https://sabe.io/classes/css/css-box-model-padding-border-margin/css-box-model.png "margin padding border width height" )
+* `<style></style>` tiene prioridad sobre el archivo 
