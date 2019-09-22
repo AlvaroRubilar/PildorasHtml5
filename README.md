@@ -199,4 +199,5 @@
 
 
 ![margin padding border width height  ](https://sabe.io/classes/css/css-box-model-padding-border-margin/css-box-model.png "margin padding border width height" )
-* `<style></style>` tiene prioridad sobre el archivo 
+* `<style></style>` tiene prioridad sobre el archivo solo en el documento.
+* ` <li style="background-color: deepskyblue">` estilo en linea
