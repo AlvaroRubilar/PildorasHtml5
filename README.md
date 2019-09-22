@@ -176,5 +176,5 @@
    <li>Estructura= HTML Apariencia=CSS</li>
   </ul>
  </li>
- <li>Estructura=HTML5 Apariencia=CSS</li>
+ <li>Estructura=HTML5 Apariencia=CSS3</li>
 </ol>
