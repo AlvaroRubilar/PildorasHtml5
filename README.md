@@ -186,3 +186,6 @@
     * Dentro de la etiqueta head.
 3. Dentro de etiqueta
     * Estilo inline. Casos muy concretos.
+### Selectores comunes en CSS
+
+Hay selectores por etiqueta(body,h1,etc.), por id o por clase.
