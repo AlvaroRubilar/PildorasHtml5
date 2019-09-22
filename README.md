@@ -169,6 +169,12 @@
 * Seguimos trabajando con el archivo primera_web.html.
 ## Video 6
 ### Evolución
-1. HTML con atributos de etiquetas
-2. Separación de estructura y apariencia
-..* Estructu
+<ol>
+ <li>HTML con atributos de etiquetas</li>
+ <li> Separación de estructura y apariencia
+  <ul>
+   <li>Estructura= HTML Apariencia=CSS</li>
+  </ul>
+ </li>
+ <li>Estructura=HTML5 Apariencia=CSS</li>
+</ol>
