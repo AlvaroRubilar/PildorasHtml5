@@ -167,3 +167,8 @@
 | `<address></address>`| Para información de contacto. Debe ir dentro del **footer** |
 |`<time></time>`| Representa fecha y hora`<time datetime="2014-09-11">`|
 * Seguimos trabajando con el archivo primera_web.html.
+## Video 6
+### Evolución
+1. HTML con atributos de etiquetas
+2. Separación de estructura y apariencia
+..* Estructu
