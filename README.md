@@ -198,4 +198,4 @@
 * `padding-top: 5px;` espacio entre el borde y el bloque.
 
 
-[margin padding border width height  ](https://sabe.io/classes/css/css-box-model-padding-border-margin/css-box-model.png "margin padding border width height" )
+![margin padding border width height  ](https://sabe.io/classes/css/css-box-model-padding-border-margin/css-box-model.png "margin padding border width height" )
