@@ -110,34 +110,35 @@
 * Seguimos trabajando con el archivo primera_web.html
 ### Organización del body
 #### Cabecera
-```
+```html
 <heather> </heather>
+
 ```
 #### Barra de navegación
-```
+```html
 <nav> </nav>
 ```
 #### Barra Lateral
-```
+```html
 <aside> </aside>
 ```
 #### Conenido Principal
-```
+```html
 <section> </section>
 ```
 #### Información Institucional
-```
+```html
 <footer> </footer>
 ```
 #### Modelo caja contenedor (Tipo tabla)
-```
+```html
 <div> </div>
 ```
 ## Vídeo 4
 * Estructura del cuerpo.
 * Nuevos Elementos Organizativos.
 * Padres hijos y hermanos.
-```
+```html
 <section>
     <article>
         <h1></h1>
@@ -167,7 +168,7 @@
 | `<address></address>`| Para información de contacto. Debe ir dentro del **footer** |
 |`<time></time>`| Representa fecha y hora`<time datetime="2014-09-11">`|
 * Seguimos trabajando con el archivo primera_web.html.
-## Video 6 Trabajando la apariencia
+## Vídeo 6 Trabajando la apariencia
 ### Evolución
 <ol>
  <li>HTML con atributos de etiquetas</li>
@@ -188,9 +189,9 @@
     * Estilo inline. Casos muy concretos.
 ### Selectores comunes en CSS
 
-* Hay selectores por etiqueta(body,h1,etc.), por id o por clase.
+* Hay selectores por etiqueta( body, h1, etc.), por id o por clase.
 * seguimos trabajando con primera_web.html y se ha incorporado miHojaDeEstilos.css
-## Video 7 Modelo caja-contenedor. Float, margin y padding
+## Vídeo 7 Modelo caja-contenedor. Float, margin y padding
 * `display: inline;` se distribuyen de forma horizontal y desaparecen los puntos
 * `float: left;` hace que el aside(barra lateral) este ubicado en la izquierda flotando.
 * `height:1200px` da el tamaño del bloque.
@@ -199,5 +200,6 @@
 
 
 ![margin padding border width height  ](https://sabe.io/classes/css/css-box-model-padding-border-margin/css-box-model.png "margin padding border width height" )
-* `<style></style>` tiene prioridad sobre el archivo solo en el documento.
-* ` <li style="background-color: deepskyblue">` estilo en linea
+* `<style></style>` tiene prioridad sobre el archivo  en el documento, se ubica en el head.
+* ` <li style="background-color: deepskyblue">` estilo en linea tiene prioridad sobre head y el archivo.
+* Seguimos trabajando con primera_web.html y se ha modifcado miHojaDeEstilos.css
