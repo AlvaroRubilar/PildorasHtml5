@@ -26,3 +26,10 @@ h1{
     box-shadow: blue 5px 5px 10px;
     text-shadow: black 2px 2px 3px;
 }
+h2{
+    font: bold 1.7em Verdana,Geneva,sans-serif;
+    margin: 0px;
+    padding: 5px 0 5px 8px;
+    color: black;
+    
+}
