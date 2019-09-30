@@ -48,7 +48,8 @@ figure img{
     padding: 4px;
     border-radius: 20px;
     background: gray;
+    -webkit-trasition:-webkit-transform 0.3s case-in-out 0.1s;
 }
 figure img:hover{
-    
+    -webkit-transform: scale(1.2);
 }
