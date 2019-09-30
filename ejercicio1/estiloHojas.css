@@ -60,3 +60,12 @@ figcaption{
     margin-top: 5px;
 
 }
+footer{
+    clear: both;
+    padding-top: 100px;
+}
+footer p{
+    font: 1.6em Georgia;
+    color:gray;
+    margin:10px 8px;
+}
