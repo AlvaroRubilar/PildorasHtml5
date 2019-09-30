@@ -31,5 +31,10 @@ h2{
     margin: 0px;
     padding: 5px 0 5px 8px;
     color: black;
-    
+
+}
+section{
+    width: 91%;
+    border-top: 1px dashed rgb(173, 172, 172);
+    margin:15px auto;
 }
