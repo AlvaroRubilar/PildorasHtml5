@@ -1,13 +1,9 @@
-function ejecuta(){
-    for (let i = 0; i < 3; i++) {
-        
-        document.getElementsByTagName("p")[i].onclick=saludo;
-        
-    }
+function ejecuta() {
+    var z = document.getElementsByClassName("importante")[0].onclick = saludo;
 
 }
 
 function saludo() {
-    alert("Hola ¿Qué hay de nuevo?"); 
+    alert("Hola ¿Qué hay de nuevo?");
 }
-window.onload=ejecuta;
+window.onload = ejecuta;
