@@ -1,6 +1,6 @@
 function ejecuta() {
     //    document.querySelector("#principal p:last-child").onclick=saludo;
-    var elementos = document.querySelectorAll("#principal p");
+    var elementos = document.querySelectorAll("#principal p, span");
     for (let i = 0; i < elementos.length; i++) {
 
         elementos[i].onclick = saludo;
