@@ -1,5 +1,5 @@
 function ejecuta(){
-    document.getElementsByTagName("p")[0].onclick=saludo;
+    document.getElementsByTagName("p")[2].onclick=saludo;
 }
 
 function saludo() {
