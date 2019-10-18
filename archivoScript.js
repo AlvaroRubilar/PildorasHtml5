@@ -1,5 +1,9 @@
 function ejecuta() {
-    var z = document.getElementsByClassName("importante")[0].onclick = saludo;
+    for (let i = 0; i < 2; i++) {
+       
+        
+        var z = document.getElementsByClassName("importante")[i].onclick = saludo;
+    }
 
 }
 
