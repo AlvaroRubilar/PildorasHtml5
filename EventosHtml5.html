@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script>
+        var imagen; //global
+        function tipoFlor() {
+            alert("Pensamientos");
+        }
 
-      function tipoFlor() {
-          alert("Pensamientos");
-      }
-      function daTipoFlor() {
-         var imagen=document.getElementsByTagName("img")[0];
-         imagen.addEventListener("click",tipoFlor,false);
-      }
-      window.onload=daTipoFlor;
-        
+        function manejaFlor() {
+             imagen = document.getElementsByTagName("img")[0];
+            imagen.addEventListener("mouseover", crecer, false);
+            imagen.addEventListener("mouseout",menguar,false);
+            imagen.addEventListener("click",tipoFlor,false);
+        }
+
+        function crecer() {
+            imagen.width = 225;
+            imagen.height = 225;
+        }
+        function menguar() {
+            imagen.width=200;
+            imagen.height=200;
+            
+        }
+        window.onload = manejaFlor;
     </script>
 </head>
+
 <body>
-    <p><img src="ejercicio1/imagenes/1.jpg" ></p>
+    <p><img src="ejercicio1/imagenes/1.jpg"></p>
 </body>
+
 </html>
