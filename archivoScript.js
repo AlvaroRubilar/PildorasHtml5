@@ -1,5 +1,5 @@
 function ejecuta() {
-   document.querySelector(".importante").onclick=saludo;
+   document.querySelector("#principal p:last-child").onclick=saludo;
 
 }
 
