@@ -1,6 +1,10 @@
 function ejecuta() {
 //    document.querySelector("#principal p:last-child").onclick=saludo;
-    var elementos=document.querySelectorAll("#principal p")[0].onclick=saludo;
+for (let i = 0; i < 4; i++) {
+    
+    var elementos=document.querySelectorAll("#principal p")[i].onclick=saludo;
+    
+}
 }
 
 function saludo() {
