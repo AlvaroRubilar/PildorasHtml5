@@ -10,11 +10,14 @@
       function tipoFlor() {
           alert("Pensamientos");
       }
-      
+      function daTipoFlor() {
+          document.getElementsByTagName("img")[0].onclick=tipoFlor;
+      }
+      window.onload=daTipoFlor;
         
     </script>
 </head>
 <body>
-    <p><img src="ejercicio1/imagenes/1.jpg" onmouseover="tipoFlor()"></p>
+    <p><img src="ejercicio1/imagenes/1.jpg" ></p>
 </body>
 </html>
