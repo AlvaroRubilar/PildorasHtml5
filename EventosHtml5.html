@@ -11,7 +11,8 @@
           alert("Pensamientos");
       }
       function daTipoFlor() {
-          document.getElementsByTagName("img")[0].onclick=tipoFlor;
+         var imagen=document.getElementsByTagName("img")[0];
+         imagen.addEventListener("click",tipoFlor,false);
       }
       window.onload=daTipoFlor;
         
