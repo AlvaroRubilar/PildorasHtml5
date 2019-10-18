@@ -13,20 +13,21 @@
         }
 
         function manejaFlor() {
-             imagen = document.getElementsByTagName("img")[0];
+            imagen = document.getElementsByTagName("img")[0];
             imagen.addEventListener("mouseover", crecer, false);
-            imagen.addEventListener("mouseout",menguar,false);
-            imagen.addEventListener("click",tipoFlor,false);
+            imagen.addEventListener("mouseout", menguar, false);
+            imagen.addEventListener("click", tipoFlor, false);
         }
 
         function crecer() {
             imagen.width = 225;
             imagen.height = 225;
         }
+
         function menguar() {
-            imagen.width=200;
-            imagen.height=200;
-            
+            imagen.width = 200;
+            imagen.height = 200;
+
         }
         window.onload = manejaFlor;
     </script>
