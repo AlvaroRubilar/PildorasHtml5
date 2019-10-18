@@ -1,6 +1,10 @@
 function ejecuta(){
-    // document.getElementsByTagName("p")[2].onclick=saludo;
-    document.getElementById("importante").onclick=saludo;
+    for (let i = 0; i < 3; i++) {
+        
+        document.getElementsByTagName("p")[i].onclick=saludo;
+        
+    }
+
 }
 
 function saludo() {
