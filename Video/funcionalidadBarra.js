@@ -1,4 +1,4 @@
-var miVideo, reproducir, barra, progreso, maximo;
+var miVideo, reproducir, barra, progreso, maximo,posicion;
 maximo = 600;
 
 function comenzar() {
@@ -8,7 +8,7 @@ function comenzar() {
     progreso = document.getElementById("progreso");
 
     reproducir.addEventListener("click", clicando, false);
-    progreso.addEventListener("click", adelantando, false);
+    barra.addEventListener("click", adelantando, false);
 }
 
 function clicando() {
@@ -31,6 +31,15 @@ function estado() {
     if (miVideo.ended == false) {
         var total = parseInt(miVideo.currentTime * maximo / miVideo.duration);
         progreso.style.width = total + "px";
+
+    }
+}
+function adelantando(posicion) {
+    if((miVideo.paused==false)&&(miVideo.ended==false)){
+        var ratonX=posicion.pageX-barra.offsetLeft;
+        var nuevoTiempo=ratonX*miVideo.duration/maximo;
+        miVideo.currentTime=nuevoTiempo;
+        progreso.style.width=ratonX+"px";
 
     }
 }
