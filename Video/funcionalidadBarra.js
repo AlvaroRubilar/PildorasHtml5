@@ -1,4 +1,5 @@
-var miVideo, reproducir, barra, progreso;
+var miVideo, reproducir, barra, progreso, maximo;
+maximo = 600;
 
 function comenzar() {
     miVideo = document.getElementById("miVideo");
@@ -15,13 +16,23 @@ function clicando() {
     if ((miVideo.paused == false) && (miVideo.ended == false)) {
 
         miVideo.pause();
-        reproducir.innerHTML="Play";
+        reproducir.innerHTML = "Play";
 
     } else {
 
         miVideo.play();
-        reproducir.innerHTML="Pause";
+        reproducir.innerHTML = "Pause";
+        bucle = setInterval(estado, 0.5);
     }
-    
+
 }
+
+function estado() {
+    if (miVideo.ended == false) {
+        var total = parseInt(miVideo.currentTime * maximo / miVideo.duration);
+        progreso.style.width = total + "px";
+
+    }
+}
+
 window.addEventListener("load", comenzar, false);

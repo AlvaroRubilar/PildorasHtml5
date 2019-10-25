@@ -17,13 +17,14 @@ nav{
 #barra{
     background: wheat;
     width: 600px;
-    height: 14px;
+    height: 16px;
     border: 1px solid goldenrod;
     padding: 3px;
     margin-left: 80px;
 }
 #progreso{
+    position: absolute;
     width: 0px;
     height: 16px;
-    background-color: rgba(0, 0, blue, 2);
-}
+    background: rgba(0, 0,150, 2);
+   }
