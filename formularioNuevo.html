@@ -65,9 +65,9 @@
 
                 document.datosUsuario.submit();
 
-            } else if (cuadroUsuario.validity.valueMissing == true) {
+            } else if (cuadroUsuario.validity.valueMissing == true ||cuadroUsuario.validity.patternMismatch==true ) {
 
-                alert ("El usuario no puede estar vacío");
+                alert ("El usuario no puede estar vacío o debe tener tres letras");
             }
         }
 
