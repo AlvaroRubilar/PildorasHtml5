@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+<style>
+table{
+    text-align: center;
+    background-color: cornsilk;
+    width:25%;
+    margin:auto;
+    border:2px,#F30 dashed;
+}
+td{
+    padding: 15px;
+}
+
+</style>
+
+
 </head>
+
 <body>
     <section>
-        <form  name="registro" method="get">
-            <datalist id="informacion">
-                <option value="952125475" label="    telefono1"></option>
-                <option value="915874521" label="    telefono2"></option>
-                <option value="936521452" label="    telefono3"></option>
-            </datalist>
-            Telefono:&nbsp;<input type="tel" name="telefono" id="telefono" list="informacion">
+        <form name="registroUsuarios" method="get">
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td><input type="text" name="nombre" id="nombre"> </td>
+                </tr>
+                <tr>
+                    <td>Apellido:</td>
+                    <td><input type="text" name="apellido" id="apellido"> </td>
+                </tr>
+                <tr>
+                    <td>Edad:</td>
+                    <td><input type="number" name="edad" id="edad" min="1" max="100"></td>
+                </tr>
+                <tr>
+                    
+                    <td><input type="submit" value="Registrar" id="Enviar"></td>
+                </tr>
+            </table>
         </form>
     </section>
 </body>
+
 </html>
