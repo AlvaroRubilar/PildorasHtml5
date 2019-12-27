@@ -31,6 +31,8 @@
             document.datosUsuario.addEventListener("invalid", validar, true);
 
             document.getElementById("Enviar").addEventListener("click", enviar, false);
+
+            document.datosUsuario.addEventListener("input",validarTiempoReal,false);
         }
 
         function cambiaRango() {
@@ -52,7 +54,7 @@
 
             var elemento = e.target;
 
-            elemento.style.background = "#FFDDDD";
+            elemento.style.background = "#B0FFDE";
         }
 
         function enviar() {
@@ -63,6 +65,17 @@
 
                 document.datosUsuario.submit();
 
+            }
+        }
+        function validarTiempoReal(e){
+
+            var elemento = e.target;
+            if (elemento.validity.valid==true){
+
+                elemento.style.background="#FFFFFF";
+            }
+            else{
+               elemento.style.background="#FFDDDD" ;
             }
         }
 
