@@ -18,7 +18,8 @@
         function comenzar() {
             var elemento = document.getElementById("lienzo");
             lienzo = elemento.getContext("2d");
-            lienzo.strokeRect(20,30,100,80)
+            lienzo.fillRect(110, 110, 100, 150);
+            lienzo.clearRect(135,110+75/2,50,75);
         }
 
         window.addEventListener("load", comenzar, false);
