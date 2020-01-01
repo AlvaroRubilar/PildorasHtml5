@@ -14,13 +14,13 @@
     </style>
     <script>
         function comenzar(){
-            var elemento=document.getElementById("lienzo")
+            var elemento=document.getElementById("lienzo");
             lienzo = elemento.getContext("2d");
             var degradado = lienzo.createLinearGradient(0,150,500,150);
-            degradado.addColorStop(0,"red");
-            degradado.addColorStop(1,"green");
+            degradado.addColorStop(0,"#0000cc");
+            degradado.addColorStop(1,"#6699ff");
             lienzo.fillStyle=degradado;
-            lienzo.fillRect(250,280,500,300);
+            lienzo.fillRect(0,0,500,300);
         }
 
 
