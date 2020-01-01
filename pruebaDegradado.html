@@ -16,8 +16,8 @@
         function comenzar(){
             var elemento=document.getElementById("lienzo");
             lienzo = elemento.getContext("2d");
-            var degradado = lienzo.createLinearGradient(0,0,500,300);
-            degradado.addColorStop(0,"#000099");
+            var degradado = lienzo.createLinearGradient(0,150,500,150);
+            degradado.addColorStop(0.8,"#000099");
             degradado.addColorStop(1,"#6699ff");
             lienzo.fillStyle=degradado;
             lienzo.fillRect(0,0,500,300);
